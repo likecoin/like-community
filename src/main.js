@@ -8,7 +8,13 @@ import VueScrollReveal from 'vue-scroll-reveal';
 
 import VueLazyload from 'vue-lazyload';
 
-import 'vue-awesome/icons';
+import 'vue-awesome/icons/slack';
+import 'vue-awesome/icons/telegram';
+import 'vue-awesome/icons/github';
+import 'vue-awesome/icons/reddit';
+import 'vue-awesome/icons/medium';
+import 'vue-awesome/icons/twitter';
+import 'vue-awesome/icons/facebook';
 import Icon from 'vue-awesome/components/Icon';
 
 import 'vue-material/dist/vue-material.css';
