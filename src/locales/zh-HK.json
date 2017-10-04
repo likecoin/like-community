@@ -4,7 +4,14 @@
     "how": "方案",
     "uses": "案例",
     "team": "團隊",
-    "alternate": "English"
+    "language": {
+      "title": "語言",
+      "items": {
+        "en": "English",
+        "ja": "日本語",
+        "zh": "中文"
+      }
+    }
   },
   "Introduction": {
     "title": "Like幣：讚賞不單是拇指",
