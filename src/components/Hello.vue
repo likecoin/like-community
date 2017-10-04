@@ -5,7 +5,7 @@
         <md-button v-for="(item, index) in navigations" :key="index" v-scroll-to="`#${item}`">
           {{ $t(`Navigation.${item}`) }}
         </md-button>
-        <md-button @click="change">{{ $t('Navigation.alternate') }}</md-button>
+        <language-menu />
         <separator class="toolbar" />
       </md-toolbar>
     </md-layout>
@@ -24,7 +24,7 @@
           >
             {{ $t(`Navigation.${item}`) }}
           </md-button>
-          <md-button @click="change">{{ $t('Navigation.alternate') }}</md-button>
+          <language-menu />
         </md-layout>
       </md-toolbar>
     </md-layout>
@@ -52,6 +52,7 @@ import How from './How';
 import Uses from './Uses';
 import Team from './Team';
 
+import LanguageMenu from './LanguageMenu';
 import Separator from './Separator';
 
 const navigations = ['why', 'how', 'uses', 'team'];
@@ -64,6 +65,7 @@ export default {
     How,
     Uses,
     Team,
+    LanguageMenu,
     Separator,
   },
   data() {
@@ -78,14 +80,6 @@ export default {
       if (element) {
         const top = element.$el.offsetTop;
         window.scrollTo(0, top);
-      }
-    },
-    change() {
-      const current = this.$locale.current();
-      if (current === 'en') {
-        this.$i18n.locale = 'zh';
-      } else {
-        this.$i18n.locale = 'en';
       }
     },
   },

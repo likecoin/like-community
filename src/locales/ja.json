@@ -1,11 +1,11 @@
 {
   "Navigation": {
-    "why": "Why",
-    "how": "How",
-    "uses": "Uses",
-    "team": "Team",
+    "why": "事由",
+    "how": "どんな？",
+    "uses": "運用事例",
+    "team": "製作チーム",
     "language": {
-      "title": "Language",
+      "title": "言語",
       "items": {
         "en": "English",
         "ja": "日本語",
@@ -14,20 +14,20 @@
     }
   },
   "Introduction": {
-    "title": "LikeCoin: appreciation is more than a thumb",
-    "description": "The currency for indie content creators"
+    "title": "Likeコイン: 賞賛しては親指だけでなく",
+    "description": "自主制作者の通貨"
   },
   "Why": {
-    "title": "Most content creators don't get income. <br> For some, not even feedbacks and attribution.",
+    "title": "ほとんどの自主制作者は収入を得ていません、<br> コメントを得られないの事もあります。",
     "description": {
-      "1": "Creators make contents, while channels take most of the profits through advertisement.",
-      "2": "Many content consumers are willing to show their appreciation by paying, but transaction cost is too high for micro tipping.",
-      "3": "Attribution is hard. Derivative works add  another dimension of complexity."
+      "1": "作成者がコンテンツを作成する、プラットフォームが広告収入を得る。",
+      "2": "多くの場合、コンテンツは賞賛のために支払うつもりですが、小額の支払いは、取引コストは高すぎます。",
+      "3": "著作者への帰属は困難です、派生的な作品はもっと複雑されますだ。"
     }
   },
   "How": {
-    "title": "An ecosystem of appreciation is needed.",
-    "description": "Sharing is not a purely selfless act — while thinking beyond one’s own personal benefit is at the core of why we share, it also pays itself forward in reputation, and rewards us with good feelings and personal gratification. Sharing contributes to our individual identity — how we want to see ourselves, and be seen, in the world. <br><br> -- Creative Commons 2015­-2020 Organizational Strategy",
+    "title": "賞賛のエコシステムが必要です。",
+    "description": "共有は純粋に無私の行為ではありません。同時に、共有は個人的な利益を超えて考えること、良い気持ちと個人的な満足感で報われます。そして、共有は自分探しの旅。他人が私たちをどんな理解する、世界が私たちをどんな理解するが、共有はその答えを探す。<br><br> -- クリエイティブ・コモンズ 2015­-2020 組織戦略",
     "layers": {
       "1": {
         "title": "Application layer",
@@ -67,40 +67,40 @@
     }
   },
   "Uses": {
-    "title": "Use cases",
+    "title": "運用事例",
     "cases": {
       "1": {
-        "title": "oice visual novel",
+        "title": "oice ノベルゲーム",
         "description": {
-          "directors": "directors compose stories with assets from various artists and musicians",
-          "readers": "LikeCoins by readers are distributed to all creators automatically"
+          "directors": "さまざまなアーティストやミュージシャンの素材を使って物語を作っています。",
+          "readers": "読者はLikeCoinsを使いで、クリエイターに褒める。システムはクリエイターに自動的な分配します。"
         }
       },
       "2": {
-        "title": "Creative Commons photo libraries",
+        "title": "クリエイティブ・コモンズ フォトライブラリー",
         "description": {
-          "decentralizedDB": "decentralized database of images",
-          "smartContract": "users attribute and tip creators with LikeCoins through smart contract"
+          "decentralizedDB": "イメージの分散データベース。",
+          "smartContract": "スマートコントラクトよに、読者はクリエイターにLikeCoinsの形式でチップを出す。"
         }
       },
       "3": {
-        "title": "Online media",
+        "title": "インターネット メディア",
         "description": {
-          "tipping": "readers tip writers directly with LikeCoins",
-          "boostContent": "writers boost their articles using LikeCoins"
+          "tipping": "読者はクリエイターにLikeCoinsでチップを出す。",
+          "boostContent": "制作者はLikeCoinsを使い、作品のランキングをブースト"
         }
       },
       "4": {
         "title": "YouTuber",
         "description": {
-          "fansSupport": "audience supporting their favorite broadcasters with LikeCoins",
-          "vote": "fans vote for their favorite live streamer with LikeCoins to boost their rank"
+          "fansSupport": "観客はチャンネルにLikeCoinsでサポートする。",
+          "vote": "ファンは好きな放送主にLikeCoinsで投票する"
         }
       }
     }
   },
   "Team": {
-    "title": "Our Team",
+    "title": "製作チーム",
     "player": {
       "kin": {
         "name": "kin ko",

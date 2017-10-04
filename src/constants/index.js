@@ -12,3 +12,11 @@ export const USES_CONTENT = {
   3: ['tipping', 'boostContent'],
   4: ['fansSupport', 'vote'],
 };
+
+export const LANGUAGE = {
+  ENGLISH: 'en',
+  JAPANESE: 'ja',
+  CHINESE: 'zh',
+};
+
+export const LANGUAGES = [LANGUAGE.ENGLISH, LANGUAGE.CHINESE, LANGUAGE.JAPANESE];
