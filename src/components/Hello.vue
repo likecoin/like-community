@@ -32,6 +32,7 @@
     <separator class="intro" />
     <why ref="why" />
     <how ref="how" />
+    <separator class="how" />
     <uses ref="uses" />
     <separator class="uses" />
     <team ref="team" />
@@ -124,7 +125,7 @@ export default {
 }
 
 .footer {
-  margin: 12px 0;
+  padding: 12px 0;
 }
 
 h1, h2 {

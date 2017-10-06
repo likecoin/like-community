@@ -1,11 +1,11 @@
 <template>
   <section id="uses" class="page">
     <md-layout md-align="center">
+      <img class="use-banner" src="../assets/use_banner.png" />
+    </md-layout>
+    <md-layout md-align="center">
       <span class="section-title">{{ $t('Uses.title') }}</span>
     </md-layout>
-    <!-- <md-layout md-align="center">
-      <img src="../assets/use_banner.png" />
-    </md-layout> -->
     <md-layout md-align="center" class="use-cases">
       <md-layout
         class="use"
@@ -70,16 +70,19 @@ li {
   margin: 0 10px;
 }
 
+.use-banner {
+  width: 731px;
+  height: 473px;
+
+  margin-top: 24px;
+}
+
 #uses {
   position: relative;
   padding-bottom: 24px;
   .section-title {
-    font-size: 3.5em;
-
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(259deg, #a8ff97, #69ecf2 30%, #77caf6 51%, #b792ff 77%, #fe7ba1);
+    font-size: 2.28em;
+    color: #4a4a4a;
   }
   .use-cases {
     .use {
@@ -156,6 +159,10 @@ li {
         min-height: initial;
       }
     }
+  }
+  .use-banner {
+    width: 100%;
+    height: 100%;
   }
 }
 </style>

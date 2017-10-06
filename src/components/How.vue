@@ -1,6 +1,9 @@
 <template>
   <section id="how" class="page">
     <md-layout md-align="center">
+      <img class="banner" src="../assets/how_banner.png" />
+    </md-layout>
+    <md-layout md-align="center">
       <span class="section-title">{{ $t('How.title') }}</span>
     </md-layout>
     <md-layout md-align="center">
@@ -69,6 +72,7 @@ export default {
 
 #how {
   margin-top: 36px;
+  background-image: linear-gradient(to top, #ffffff, #e8e8e8);
   .section-description {
     max-width: 1024px;
     font-size: 14px;

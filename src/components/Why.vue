@@ -1,11 +1,11 @@
 <template>
   <section id="why" class="page">
     <md-layout md-align="center">
+      <img class="banner" src="../assets/why_banner.png" />
+    </md-layout>
+    <md-layout md-align="center">
       <span class="section-title" v-html="$t('Why.title')" />
     </md-layout>
-    <!-- <md-layout md-align="center">
-      <img class="section-image" src="../assets/why_banner.png" />
-    </md-layout> -->
     <md-layout md-align="center">
       <md-layout
         class="rationale"

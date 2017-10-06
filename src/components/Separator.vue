@@ -30,6 +30,10 @@ export default {
   &.uses {
     background-image: linear-gradient(to right, #a8ff97, #69ecf2 30%, #77caf6 51%, #b792ff 77%, #fe7ba1);
   }
+  &.how {
+    background-color: #e8e8e8;
+    height: 1px;
+  }
   &.team {
   	background-image: linear-gradient(to left, #a8ff97, #69ecf2 30%, #77caf6 51%, #b792ff 77%, #fe7ba1);
   }
