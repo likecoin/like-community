@@ -26,7 +26,7 @@
 const images = require.context('../assets/');
 
 // order for team players
-const personnels = ['kin', 'aludirk', 'johnson', 'david', 'william', 'chung', 'edmond', 'joshua', 'gladys'];
+const personnels = ['kin', 'aludirk', 'david', 'william', 'chung', 'edmond', 'joshua', 'gladys'];
 
 export default {
   name: 'team',
