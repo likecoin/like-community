@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import VueI18n from 'vue-i18n';
+import VueIntercom from 'vue-intercom';
 
 import VueMaterial from 'vue-material';
-
 import VueScrollTo from 'vue-scrollto';
 import VueScrollReveal from 'vue-scroll-reveal';
 
@@ -23,9 +23,13 @@ import App from './App';
 import router from './router';
 
 import messages from './locales';
-import { BROWSER_LANGUAGE } from './constants';
+import {
+  BROWSER_LANGUAGE,
+  INTERCOM_APP_ID,
+} from './constants';
 
 Vue.config.productionTip = false;
+Vue.use(VueIntercom, { appId: INTERCOM_APP_ID });
 Vue.use(VueMaterial);
 Vue.use(VueI18n);
 Vue.use(VueScrollTo);
@@ -57,4 +61,12 @@ export default new Vue({
   template: '<App/>',
   components: { App },
   i18n,
+  watch: {
+    '$intercom.ready': function ready() {
+      this.$intercom.boot();
+    },
+    email(email) {
+      this.$intercom.update({ email });
+    },
+  },
 });
