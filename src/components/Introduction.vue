@@ -2,7 +2,7 @@
   <section id="intro" class="page">
     <md-layout md-gutter md-column md-align="center">
       <md-layout md-align="center">
-        <img alt="like-coin" class="main-icon" src="../assets/like-coin-transparent.svg"/>
+        <img alt="like-coin" class="main-icon" src="../assets/like-coin-white.svg"/>
       </md-layout>
       <md-layout class="section-title" md-align="center">
         {{ $t('Introduction.title') }}
