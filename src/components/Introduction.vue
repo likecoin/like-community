@@ -45,7 +45,7 @@ const platforms = [
   },
   {
     name: 'github',
-    url: 'https://github.com/lakoo',
+    url: 'https://github.com/likecoinfoundation',
   },
   // {
   //   name: 'reddit',
@@ -57,7 +57,7 @@ const platforms = [
   },
   {
     name: 'twitter',
-    url: 'https://twitter.com/likecoinico',
+    url: 'https://twitter.com/likecoin_fdn',
   },
   {
     name: 'facebook',
