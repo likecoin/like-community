@@ -1,118 +1,44 @@
 {
+  "Header": {
+    "title": "likecoin.foundation"
+  },
   "Navigation": {
-    "why": "背景",
-    "how": "方案",
-    "uses": "案例",
-    "team": "團隊",
     "language": {
-      "title": "語言",
+      "title": "Language",
       "items": {
         "en": "English",
-        "ja": "日本語",
         "zh": "中文"
       }
     }
   },
   "Introduction": {
-    "title": "Like幣：讚賞不單是拇指",
-    "description": "獨立內容創作者的貨幣"
+    "title": "Decentralized Attribution Protocol",
+    "description": "LikeCoin: Settlement currency for Creative Contents"
   },
-  "Why": {
-    "title": "多數創作者得不到收入，部份人內容被轉載也不知情。",
-    "description": {
-      "1": "創作者製作內容，平台賺取所有廣告收入。",
-      "2": "很多時內容享用者願意付費支持，然而小額支付的交易成本太高。",
-      "3": "轉載者有時難以得知原作者以標識出處，而二次創作令到這問題變得更加複雜。"
-    }
-  },
-  "How": {
-    "title": "創作圈需要一個表揚的生態系統。",
-    "description": "分享不只是一個無私行為 - 雖然超越自身利益的考慮確是我們作出分享的核心動機，但分享還能帶動聲譽的建立，以及提供快樂和滿足感作為回報。 <br> 分享也能幫助個人身份的建立：我們如何理解自己，被別人理解，被世界理解。 <br><br> -- 創用CC 2015­-2020 集團策略",
-    "layers": {
-      "1": {
-        "title": "Application layer",
-        "description": {
-          "creativeCommonLibraries": "Creative Commons libraries",
-          "oiceVisualNovel": "oice visual novel",
-          "onlineMedia": "online media",
-          "liveStreamer": "live streamer"
-        }
-      },
-      "2": {
-        "title": "LikeCoin services",
-        "description": {
-          "likecoin":"LikeCoin",
-          "wallet": "wallet",
-          "paymentAPI": "payment API",
-          "paymentSDK": "payment SDK"
-        }
-      },
-      "3": {
-        "title": "Ethereum Blockchain",
-        "description": {
-          "ethereumVM": "Ethereum virtual machine",
-          "smartContracts": "smart contracts",
-          "metaData": "meta-data",
-          "contentFingerprint": "content fingerprint"
-        }
-      },
-      "4": {
-        "title": "Interplanetory File System (IPFS)",
-        "description": {
-          "creativeCommonPhotoNode": "Creative Commons photo node",
-          "oiceNode": "oice node",
-          "artistsNode": "artists node"
-        }
-      }
-    }
-  },
-  "Uses": {
-    "title": "適用場景",
-    "cases": {
-      "1": {
-        "title": "oice 視覺小說",
-        "description": {
-          "directors": "導演以來自不同畫師與作曲家的素材製作故事",
-          "readers": "喜歡故事的讀者以Like幣表示讚賞，系統把Like幣分配給所有參與的創作者"
-        }
-      },
-      "2": {
-        "title": "創用CC圖庫",
-        "description": {
-          "decentralizedDB": "分散式開放圖像數據庫",
-          "smartContract": "透過智慧合約，使用者自動標識和以Like幣讚賞圖片原作者"
-        }
-      },
-      "3": {
-        "title": "線上媒體",
-        "description": {
-          "tipping": "讀者以Like幣讚賞喜歡的文章，支持作者",
-          "boostContent": "作者可選擇以Like幣推高文章排名，增加曝光率"
-        }
-      },
-      "4": {
-        "title": "YouTuber",
-        "description": {
-          "fansSupport": "觀眾以Like幣讚賞視訊",
-          "vote": "支持者以Like幣投票，選出最喜歡的實況主"
-        }
-      }
+  "Description": {
+    "sentence": "We enable attribution and cross-application collaboration on creative contents. With our <span class='highlight'>fingerprint</span> and unique <span class='highlight'>footprint</span> technology, we trace derivative work and provide <span class='highlight'>profit sharing</span> mechanisms.",
+    "button": {
+      "demo": "LikeCoin Demo"
     }
   },
   "Team": {
-    "title": "團隊",
+    "title": "Team",
+    "founder": {
+      "title": "Founders",
+      "label": {
+        "lakoo": "12 years of collaboration at Lakoo",
+        "teonCore": "Core team at Teon",
+        "teonTop": "Top paid game on iOS and Android"
+      }
+    },
     "player": {
       "kin": {
         "name": "kin ko",
-        "title": "Product Lead"
+        "title": "Product Design"
       },
       "aludirk": {
         "name": "Aludirk Wong",
         "title": "System Architect"
-      },
-      "david": {
-        "name": "David Ng",
-        "title": "Full Stack Developer"
       },
       "william": {
         "name": "William Chong",
@@ -120,19 +46,7 @@
       },
       "chung": {
         "name": "Chung Wu",
-        "title": "Full Stack Developer"
-      },
-      "edmond": {
-        "name": "Edmond Yu",
-        "title": "Operation"
-      },
-      "joshua": {
-        "name": "Joshua Lo",
-        "title": "UX Design"
-      },
-      "gladys": {
-        "name": "Gladys Li",
-        "title": "CFO"
+        "title": "Blockchain Developer"
       }
     }
   }

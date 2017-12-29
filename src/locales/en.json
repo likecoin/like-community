@@ -1,118 +1,44 @@
 {
+  "Header": {
+    "title": "likecoin.foundation"
+  },
   "Navigation": {
-    "why": "Why",
-    "how": "How",
-    "uses": "Uses",
-    "team": "Team",
     "language": {
       "title": "Language",
       "items": {
         "en": "English",
-        "ja": "日本語",
         "zh": "中文"
       }
     }
   },
   "Introduction": {
-    "title": "Appreciation is more than a thumb",
-    "description": "LikeCoin: social currency for User Generated Content"
+    "title": "Decentralized Attribution Protocol",
+    "description": "LikeCoin: Settlement currency for Creative Contents"
   },
-  "Why": {
-    "title": "Most content creators don't get income. <br> For some, not even feedbacks and attribution.",
-    "description": {
-      "1": "Creators make contents, while channels take most of the profits through advertisement.",
-      "2": "Many content consumers are willing to show their appreciation by paying, but transaction cost is too high for micro tipping.",
-      "3": "Attribution is hard. Derivative works add  another dimension of complexity."
-    }
-  },
-  "How": {
-    "title": "An ecosystem of appreciation is needed.",
-    "description": "Sharing is not a purely selfless act — while thinking beyond one’s own personal benefit is at the core of why we share, it also pays itself forward in reputation, and rewards us with good feelings and personal gratification. Sharing contributes to our individual identity — how we want to see ourselves, and be seen, in the world. <br><br> -- Creative Commons 2015­-2020 Organizational Strategy",
-    "layers": {
-      "1": {
-        "title": "Application layer",
-        "description": {
-          "creativeCommonLibraries": "Creative Commons libraries",
-          "oiceVisualNovel": "oice visual novel",
-          "onlineMedia": "online media",
-          "liveStreamer": "live streamer"
-        }
-      },
-      "2": {
-        "title": "LikeCoin services",
-        "description": {
-          "likecoin":"LikeCoin",
-          "wallet": "wallet",
-          "paymentAPI": "payment API",
-          "paymentSDK": "payment SDK"
-        }
-      },
-      "3": {
-        "title": "Ethereum Blockchain",
-        "description": {
-          "ethereumVM": "Ethereum virtual machine",
-          "smartContracts": "smart contracts",
-          "metaData": "meta-data",
-          "contentFingerprint": "content fingerprint"
-        }
-      },
-      "4": {
-        "title": "Interplanetory File System (IPFS)",
-        "description": {
-          "creativeCommonPhotoNode": "Creative Commons photo node",
-          "oiceNode": "oice node",
-          "artistsNode": "artists node"
-        }
-      }
-    }
-  },
-  "Uses": {
-    "title": "Use cases",
-    "cases": {
-      "1": {
-        "title": "oice visual novel",
-        "description": {
-          "directors": "directors compose stories with assets from various artists and musicians",
-          "readers": "LikeCoins by readers are distributed to all creators automatically"
-        }
-      },
-      "2": {
-        "title": "Creative Commons photo libraries",
-        "description": {
-          "decentralizedDB": "decentralized database of images",
-          "smartContract": "users attribute and tip creators with LikeCoins through smart contract"
-        }
-      },
-      "3": {
-        "title": "Online media",
-        "description": {
-          "tipping": "readers tip writers directly with LikeCoins",
-          "boostContent": "writers boost their articles using LikeCoins"
-        }
-      },
-      "4": {
-        "title": "YouTuber",
-        "description": {
-          "fansSupport": "audience supporting their favorite broadcasters with LikeCoins",
-          "vote": "fans vote for their favorite live streamer with LikeCoins to boost their rank"
-        }
-      }
+  "Description": {
+    "sentence": "We enable attribution and cross-application collaboration on creative contents. With our <span class='highlight'>fingerprint</span> and unique <span class='highlight'>footprint</span> technology, we trace derivative work and provide <span class='highlight'>profit sharing</span> mechanisms.",
+    "button": {
+      "demo": "LikeCoin Demo"
     }
   },
   "Team": {
-    "title": "Our Team",
+    "title": "Team",
+    "founder": {
+      "title": "Founders",
+      "label": {
+        "lakoo": "12 years of collaboration at Lakoo",
+        "teonCore": "Core team at Teon",
+        "teonTop": "Top paid game on iOS and Android"
+      }
+    },
     "player": {
       "kin": {
         "name": "kin ko",
-        "title": "Product Lead"
+        "title": "Product Design"
       },
       "aludirk": {
         "name": "Aludirk Wong",
         "title": "System Architect"
-      },
-      "david": {
-        "name": "David Ng",
-        "title": "Full Stack Developer"
       },
       "william": {
         "name": "William Chong",
@@ -120,19 +46,7 @@
       },
       "chung": {
         "name": "Chung Wu",
-        "title": "Full Stack Developer"
-      },
-      "edmond": {
-        "name": "Edmond Yu",
-        "title": "Operation"
-      },
-      "joshua": {
-        "name": "Joshua Lo",
-        "title": "UX Design"
-      },
-      "gladys": {
-        "name": "Gladys Li",
-        "title": "CFO"
+        "title": "Blockchain Developer"
       }
     }
   }
