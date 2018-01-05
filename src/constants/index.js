@@ -3,7 +3,7 @@ import {
   INTERCOM_APP_ID_TEST,
 } from './keys';
 
-export const BROWSER_LANGUAGE = (navigator.languages
+export const BROWSER_LANGUAGE = ((navigator.languages && navigator.languages[0])
     ? navigator.languages[0]
     : (navigator.language || navigator.userLanguage || '')).substring(0, 2);
 
