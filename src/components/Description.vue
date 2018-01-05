@@ -3,8 +3,13 @@
     <div class="details">
       <div v-html="$t('Description.sentence')" />
     </div>
-    <div class="link">
-      <a href="https://meme.likecoin.foundation">{{ $t('Description.button.demo') }}</a>
+    <div class="links">
+      <div class="link poc">
+        <a href="https://meme.likecoin.foundation">{{ $t('Description.button.demo') }}</a>
+      </div>
+      <div class="link deck">
+        <a href="https://deck.likecoin.foundation">{{ $t('Description.button.deck') }}</a>
+      </div>
     </div>
   </section>
 </template>
@@ -48,20 +53,36 @@ export default {
     }
   }
 
-  .link {
-    background-image: linear-gradient(58deg, #3a2a6c, #2a666c);
+  .links {
     flex: 1;
-    height: 60px;
-    text-align: left;
-    padding: 16px;
-    display: flex;
-    font-size: 24px;
-    align-items: center;
+    .link {
+      flex: 1;
+      height: 60px;
+      text-align: left;
+      padding: 16px;
+      display: flex;
+      font-size: 24px;
+      align-items: center;
 
-    > a {
-      color: $like-white;
-      cursor: pointer;
-      text-decoration: underline;
+      transition: opacity .2s ease-in-out;
+
+      &.poc {
+        background-image: linear-gradient(58deg, #3a2a6c, #2a666c);
+        margin-bottom: 8px;
+      }
+      &.deck {
+        background-image: linear-gradient(63deg, #3a2a6c 2%, #6c2a2a 99%);
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      > a {
+        color: $like-white;
+        cursor: pointer;
+        text-decoration: underline;
+      }
     }
   }
 }
@@ -84,12 +105,15 @@ export default {
       font-size: 18px;
     }
 
-    .link {
-      width: 244px;
-      margin: 24px 0;
-      justify-content: center;
-      height: 44px;
-      font-size: 22px;
+    .links {
+      margin: 12px 0;
+      .link {
+        width: 244px;
+        margin: 12px 0;
+        justify-content: center;
+        height: 44px;
+        font-size: 22px;
+      }
     }
   }
 }

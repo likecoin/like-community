@@ -44,7 +44,7 @@
       </div>
 
 
-      <div class="carousel" v-if="!isFounderFitScreenSize">
+      <div class="carousel" v-else>
         <!-- swiper -->
         <swiper :options="swiperOptions" ref="mySwiper">
           <swiper-slide

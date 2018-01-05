@@ -67,7 +67,7 @@ $small-padding: 16px;
     position: absolute;
     z-index: -1;
 
-    width: 66.66%;
+    width: calc(66.66% + 64px);
     height: calc(100% + 84px);
     margin-left: -$large-padding;
 
