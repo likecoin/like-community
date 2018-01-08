@@ -54,6 +54,8 @@ $small-padding: 16px;
   max-width: 1440px;
   margin: 0 auto;
 
+  overflow: hidden;
+
   > * {
     margin-right: $large-padding;
     margin-left: $large-padding;

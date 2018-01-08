@@ -5,10 +5,22 @@
     </div>
     <div class="links">
       <div class="link poc">
-        <a href="https://meme.likecoin.foundation">{{ $t('Description.button.demo') }}</a>
+        <a
+         href="https://meme.likecoin.foundation"
+         target="_blank"
+         rel="noopener noreferrer"
+        >
+          {{ $t('Description.button.demo') }}
+        </a>
       </div>
       <div class="link deck">
-        <a href="https://deck.likecoin.foundation">{{ $t('Description.button.deck') }}</a>
+        <a
+         href="https://deck.likecoin.foundation"
+         target="_blank"
+         rel="noopener noreferrer"
+        >
+          {{ $t('Description.button.deck') }}
+        </a>
       </div>
     </div>
   </section>
