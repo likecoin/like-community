@@ -36,12 +36,12 @@ const platforms = [
     url: 'https://twitter.com/likecoin_fdn',
   },
   {
-    name: 'facebook',
-    url: 'https://www.facebook.com/groups/likecoin/',
-  },
-  {
     name: 'github',
     url: 'https://github.com/likecoin/',
+  },
+  {
+    name: 'facebook',
+    url: 'https://www.facebook.com/groups/likecoin/',
   },
 ];
 
@@ -78,6 +78,12 @@ export default {
   .icon-bar {
     display: flex;
     align-items: center;
+
+    .md-icon-button {
+      &:hover {
+        opacity: .7;
+      }
+    }
 
     .language {
       margin-left: 16px;
