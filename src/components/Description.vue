@@ -79,11 +79,11 @@ export default {
       transition: opacity .2s ease-in-out;
 
       &.poc {
-        background-image: linear-gradient(58deg, #3a2a6c, #2a666c);
+        background-image: linear-gradient(58deg, $like-gradient-2, $like-green);
         margin-bottom: 8px;
       }
       &.deck {
-        background-image: linear-gradient(63deg, #3a2a6c 2%, #6c2a2a 99%);
+        background-image: linear-gradient(63deg, $like-gradient-2 2%, $like-gradient-3 99%);
       }
 
       &:hover {

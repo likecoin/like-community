@@ -72,7 +72,7 @@ export default {
 
   .title {
     font-size: 18px;
-    color: $like-dark-blue;
+    color: $like-green;
   }
 
   .icon-bar {
@@ -88,7 +88,7 @@ export default {
     .language {
       margin-left: 16px;
       cursor: pointer;
-      color: $like-dark-blue;
+      color: $like-green;
     }
   }
 }

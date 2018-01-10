@@ -29,7 +29,7 @@ export default {
   padding: 0 48px;
 
   border-radius: 8px;
-	background-image: linear-gradient(238deg, #d4eff1, #f2e3b2);
+	background-image: linear-gradient(238deg, $like-light-blue, $like-gradient-1);
 
   > * {
     flex: 1;
