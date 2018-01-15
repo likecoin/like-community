@@ -1,5 +1,7 @@
 # like-com
 
+[![NSP Status](https://nodesecurity.io/orgs/likecoin/projects/5d97cf78-6b4d-4085-85d1-694ae9fc0e0f/badge)](https://nodesecurity.io/orgs/likecoin/projects/5d97cf78-6b4d-4085-85d1-694ae9fc0e0f)
+
 > like comunity
 
 ## Build Setup
