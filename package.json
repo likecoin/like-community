@@ -11,8 +11,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
-    "1.0": "^1.0.2",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
     "scrollreveal": "^3.3.6",
     "swiper": "^4.0.7",
