@@ -13,15 +13,6 @@
           {{ $t('Description.button.demo') }}
         </a>
       </div>
-      <div class="link deck">
-        <a
-         href="https://deck.likecoin.foundation"
-         target="_blank"
-         rel="noopener noreferrer"
-        >
-          {{ $t('Description.button.deck') }}
-        </a>
-      </div>
     </div>
   </section>
 </template>
@@ -81,9 +72,6 @@ export default {
       &.poc {
         background-image: linear-gradient(58deg, $like-gradient-2, $like-green);
         margin-bottom: 8px;
-      }
-      &.deck {
-        background-image: linear-gradient(63deg, $like-gradient-2 2%, $like-gradient-3 99%);
       }
 
       &:hover {
