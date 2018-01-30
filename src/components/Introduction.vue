@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../styles/index.scss";
+@import "../styles/variable.scss";
 
 #intro {
   display: flex;
@@ -43,27 +43,19 @@ export default {
   }
 
   > .icon {
-    order: 2;
-
     margin: -50px 0;
     > img {
       width: 100%;
     }
   }
 
-  .heading {
-    order: 1;
-  }
-
   .description {
-    order: 3;
-
     padding-left: 16px;
   }
 }
 
 @media (max-width: 1024px) {
-  #intro {
+  body #intro {
     margin-top: 24px;
 
     h1 {
@@ -71,14 +63,14 @@ export default {
     }
 
     .icon {
-      margin: unset !important;
+      margin: unset;
     }
   }
 }
 
 
 @media (max-width: 950px) {
-  #intro {
+  body #intro {
     h1 {
       font-size: 32px;
     }
@@ -90,7 +82,7 @@ export default {
 }
 
 @media (max-width: 768px) {
-  #intro {
+  body #intro {
     h1 {
       font-size: 26px;
     }
@@ -106,23 +98,14 @@ export default {
     flex-direction: column;
 
     padding: 0 24px;
+
     .title {
       margin-top: 12px;
 
       text-align: center;
     }
-    
-    .icon {
-      order: 1;
-    }
-    
-    .heading {
-      order: 2;
-    }
-    
-    .description {
-      order: 3;
 
+    .description {
       margin-bottom: 12px;
       padding-left: 16px;
     }

@@ -39,7 +39,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../styles/index.scss";
+@import "../styles/variable.scss";
 
 $large-padding: 64px;
 $mid-padding: 24px;

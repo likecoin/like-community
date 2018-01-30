@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../styles/index.scss";
+@import "../styles/variable.scss";
 
 #description {
   display: flex;
@@ -60,7 +60,6 @@ export default {
     flex: 1;
     .link {
       flex: 1;
-      height: 60px;
       text-align: left;
       padding: 16px;
       display: flex;
@@ -82,21 +81,23 @@ export default {
         color: $like-white;
         cursor: pointer;
         text-decoration: underline;
+
+        line-height: 28px;
       }
     }
   }
 }
 
 @media (max-width: 1024px) {
-  #description {
-    margin-top: 44px !important;
+  body #description {
+    margin-top: 44px;
   }
 }
 
 @media (max-width: 768px) {
   body #description {
     flex-direction: column;
-    margin-top: 36px !important;
+    margin-top: 36px;
     padding: 0;
 
     .details {
