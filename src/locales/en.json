@@ -18,14 +18,12 @@
   "Description": {
     "sentence": "We enable attribution and cross-application collaboration on creative contents. With our <span class='highlight'>fingerprint</span> and unique <span class='highlight'>footprint</span> technology, we trace derivative work and provide <span class='highlight'>profit sharing</span> mechanisms.",
     "button": {
-      "demo": "Proof of concept",
-      "deck": "Pitch deck"
+      "demo": "Proof of concept"
     }
   },
   "Team": {
     "title": "Team",
     "founder": {
-      "title": "Founders",
       "label": {
         "lakoo": "12 years of collaboration at Lakoo",
         "teonCore": "Core team at Teon",
@@ -41,6 +39,10 @@
         "name": "Aludirk Wong",
         "title": "System Architect"
       },
+      "jacky": {
+        "name": "Jacky Ko",
+        "title": "CMO"
+      },
       "william": {
         "name": "William Chong",
         "title": "Full Stack Developer"
@@ -48,6 +50,26 @@
       "chung": {
         "name": "Chung Wu",
         "title": "Blockchain Developer"
+      },
+      "edmond": {
+        "name": "Edmond Yu",
+        "title": "Operation"
+      },
+      "simonb": {
+        "name": "Simon But",
+        "title": "Growth Hacker"
+      },
+      "david": {
+        "name": "David Ng",
+        "title": "Full Stack Developer"
+      },
+      "miles": {
+        "name": "Miles Wong",
+        "title": "Full Stack Developer"
+      },
+      "joshua": {
+        "name": "Joshua Lo",
+        "title": "Designer"
       }
     }
   }

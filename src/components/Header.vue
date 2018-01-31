@@ -10,7 +10,7 @@
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img v-lazy="imgUrl(`${platform.name}.svg`)" />
+        <img v-lazy="imgUrl(`icons/${platform.name}.svg`)" />
       </md-button>
       <!-- <a class="md-icon-button language">En</a> -->
     </div>
@@ -20,7 +20,7 @@
 
 
 <script>
-const images = require.context('../assets/icons/');
+import { imgUrl } from '../utils';
 
 const platforms = [
   {
@@ -53,15 +53,13 @@ export default {
     };
   },
   methods: {
-    imgUrl(path) {
-      return images(`./${path}`);
-    },
+    imgUrl,
   },
 };
 </script>
 
 <style lang="scss" scoped>
-@import "../styles/index.scss";
+@import "../styles/variable.scss";
 
 #header {
   display: flex;

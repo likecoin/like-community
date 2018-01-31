@@ -13,15 +13,6 @@
           {{ $t('Description.button.demo') }}
         </a>
       </div>
-      <div class="link deck">
-        <a
-         href="https://deck.likecoin.foundation"
-         target="_blank"
-         rel="noopener noreferrer"
-        >
-          {{ $t('Description.button.deck') }}
-        </a>
-      </div>
     </div>
   </section>
 </template>
@@ -34,7 +25,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../styles/index.scss";
+@import "../styles/variable.scss";
 
 #description {
   display: flex;
@@ -69,7 +60,6 @@ export default {
     flex: 1;
     .link {
       flex: 1;
-      height: 60px;
       text-align: left;
       padding: 16px;
       display: flex;
@@ -82,9 +72,6 @@ export default {
         background-image: linear-gradient(58deg, $like-gradient-2, $like-green);
         margin-bottom: 8px;
       }
-      &.deck {
-        background-image: linear-gradient(63deg, $like-gradient-2 2%, $like-gradient-3 99%);
-      }
 
       &:hover {
         opacity: 0.8;
@@ -94,21 +81,23 @@ export default {
         color: $like-white;
         cursor: pointer;
         text-decoration: underline;
+
+        line-height: 28px;
       }
     }
   }
 }
 
 @media (max-width: 1024px) {
-  #description {
-    margin-top: 44px !important;
+  body #description {
+    margin-top: 44px;
   }
 }
 
 @media (max-width: 768px) {
   body #description {
     flex-direction: column;
-    margin-top: 36px !important;
+    margin-top: 36px;
     padding: 0;
 
     .details {
